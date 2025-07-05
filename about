@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About - My Math & ML Blog</title>
+    <style>
+        body { 
+            font-family: Times, serif; 
+            max-width: 800px; 
+            margin: 40px auto; 
+            padding: 20px; 
+            line-height: 1.6; 
+        }
+        h1 { color: #000080; border-bottom: 2px solid #000080; }
+        h2 { color: #000080; border-bottom: 1px solid #ccc; }
+        h3 { color: #000080; }
+        a { color: #000080; text-decoration: none; }
+        a:visited { color: #800080; }
+        a:hover { text-decoration: underline; }
+        .nav { text-align: center; border-bottom: 1px solid #ccc; padding-bottom: 20px; margin-bottom: 40px; }
+        .nav a { margin: 0 20px; font-weight: bold; }
+        .content { margin-bottom: 40px; }
+        .content p { margin-bottom: 15px; text-align: justify; }
+        .content ul { margin-bottom: 15px; }
+        .content li { margin-bottom: 5px; }
+        .highlight { background: #f0f8ff; padding: 15px; border: 1px solid #87ceeb; margin: 20px 0; }
+        .footer { text-align: center; border-top: 1px solid #ccc; padding-top: 20px; margin-top: 40px; color: #666; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="archive.html">Archive</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <h1>About This Blog</h1>
+
+    <div class="content">
+        <h2>Welcome</h2>
+        <p>Welcome to my blog on mathematics and machine learning! This space is dedicated to exploring the deep mathematical foundations that power modern machine learning systems. Whether you're a researcher, practitioner, or simply passionate about theory, you'll find a mix of formal rigor and intuitive explanation here.</p>
+
+        <h2>What You'll Find Here</h2>
+        <p>This blog focuses on mathematically-rich topics in machine learning, including but not limited to:</p>
+        <ul>
+            <li><strong>Linear Algebra for ML</strong> – Vector spaces, eigenvalues, singular value decomposition</li>
+            <li><strong>Probability & Statistics</strong> – Bayesian inference, information theory, entropy and divergence</li>
+            <li><strong>Optimization Theory</strong> – Gradient methods, convexity, duality, and constrained optimization</li>
+            <li><strong>Neural Network Theory</strong> – Backpropagation, universal approximation, expressivity bounds</li>
+            <li><strong>Learning Theory</strong> – VC dimension, PAC learning, generalization and overfitting</li>
+            <li><strong>Advanced Topics</strong> – Transformer math, attention mechanisms, generative models, and causality</li>
+            <li><strong>Research Notes</strong> – In-progress ideas, mathematical proofs, and technical breakdowns</li>
+        </ul>
+
+        <h2>About Me</h2>
+        <p>I’m a machine learning enthusiast and mathematical thinker with a strong interest in the theoretical backbone of AI. My goal is to bridge the gap between rigorous mathematical theory and modern ML practice—exploring everything from deep learning fundamentals to state-of-the-art models through a mathematical lens.</p>
+
+        <div class="highlight">
+            <p><strong>Research Interests:</strong> Deep learning theory, optimization, representation learning, information theory in ML, and mathematical structures behind AI algorithms.</p>
+        </div>
+
+        <h2>Blog Philosophy</h2>
+        <p>I believe that true mastery of ML comes from understanding its mathematical foundations. This blog aims to:</p>
+        <ul>
+            <li>Explain ML algorithms with mathematical transparency</li>
+            <li>Break down complex ideas into first principles</li>
+            <li>Share complete derivations and proofs where possible</li>
+            <li>Connect theory to modern deep learning architectures</li>
+            <li>Foster curiosity, rigor, and intuition in equal measure</li>
+        </ul>
+
+        <h2>Technical Notes</h2>
+        <p>This blog is written in clean HTML and CSS and hosted on GitHub Pages to keep the focus on content. All equations are written using MathJax or LaTeX-style markdown, where supported.</p>
+
+        <p>While I assume familiarity with undergraduate-level mathematics, many posts aim to be self-contained, allowing readers to build up from fundamental concepts to advanced applications.</p>
+
+        <h2>Feedback and Collaboration</h2>
+        <p>If you’re interested in collaborating, suggesting topics, or pointing out errors, I welcome your messages! You can reach me through the <a href="contact.html">contact page</a>. I also encourage academic and research discussion around the posts.</p>
+
+        <p>Let’s make machine learning not just usable—but truly understood.</p>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 My Math & ML Blog | Built with simple HTML</p>
+    </div>
+</body>
+</html>
