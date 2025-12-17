@@ -82,7 +82,7 @@ export const siteContent = {
       id: 1,
       title: "But what does it mean for something to be learnable?",
       excerpt: "Exploring what learnability means in the context of machine learning, specifically deep learning.",
-      date: "12-09-2025",
+      date: "12-30-2025",
       readTime: "15 min read",
       category: "ML Theory",
       link: "#"
@@ -91,7 +91,7 @@ export const siteContent = {
       id: 2,
       title: "But what does it mean for a network to generalize?",
       excerpt: "Explore the concept of generalization in neural networks and its implications for model performance.",
-      date: "12-20-2025",
+      date: "01-15-2026",
       readTime: "15 min read",
       category: "ML Theory",
       link: "#"
