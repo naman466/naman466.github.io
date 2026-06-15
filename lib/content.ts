@@ -11,7 +11,7 @@ export const siteContent = {
     "I am currently pursuing my Bachelor's in Computer Science and Engineering at Amity University, with expected graduation in 2026. My academic journey has been focused on deep learning, model optimization, and computational efficiency in neural networks.",
     "My research explores the intersection of model efficiency and practical applications in computer vision and natural language processing. I'm passionate about developing optimized deep learning systems that balance performance with computational constraints, working on problems ranging from image forgery detection to mathematical reasoning in language models.",
     "Beyond my core research interests, I'm developing a growing curiosity for communication theory, particularly in multi-agent systems contexts, and am actively learning about information exchange and coordination mechanisms between computational entities.",
-    "Looking ahead, I plan to pursue a Ph.D. and build a career in academia, where I can contribute to advancing computing research while making quality education accessible through knowledge sharing."
+    "Looking ahead, I plan to contribute to AI research and make efficient deep learning systems accessible in resource-constrained environments."
   ]
 },
 
