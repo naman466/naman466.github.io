@@ -1,33 +1,14 @@
 import type { Metadata } from 'next'
-import { Lora } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
+import { Caveat, Kalam } from 'next/font/google'
 import './globals.css'
+import './notebook.css'
 
-// const _geist = Geist({ subsets: ["latin"] });
-// const _geistMono = Geist_Mono({ subsets: ["latin"] });
-const _lora = Lora({ subsets: ["latin"], variable: "--font-serif" });
+const hand = Kalam({ subsets: ['latin'], weight: ['400', '700'], variable: '--hand' })
+const marker = Caveat({ subsets: ['latin'], weight: ['700'], variable: '--marker' })
 
 export const metadata: Metadata = {
-  title: 'Naman Tyagi | Student',
-  description: 'Academic personal website - Research in ML',
-  generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
+  title: 'Naman Tyagi',
+  description: 'Naman Tyagi: systems and low-level programming, MS CS at Northeastern University',
 }
 
 export default function RootLayout({
@@ -36,11 +17,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`font-sans antialiased ${_lora.variable}`}>
-        {children}
-        <Analytics />
-      </body>
+    <html lang="en" className={`${hand.variable} ${marker.variable}`}>
+      <body>{children}</body>
     </html>
   )
 }
