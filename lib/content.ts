@@ -24,25 +24,28 @@ export const siteContent = {
     "ML inference runtimes"
   ],
 
-  // placeholders: fill in title / description / link for each project
+  // link is optional; leave it out if there's no public repo
   projects: [
     {
-      title: "Project one",
-      description: "Placeholder. One or two lines on what it is and what was hard about it.",
-      tags: ["C++"],
-      link: "https://github.com/naman466"
+      title: "Null",
+      description: "A compiler that lowers ONNX models to standalone, dependency-free C. Written in C++20, built up one small, tested step at a time; first milestone is an MLP running end to end and matching onnxruntime.",
+      tags: ["C++20", "C", "ONNX"],
+      when: "2026 – ongoing",
+      link: "https://github.com/naman466/Null"
     },
     {
-      title: "Project two",
-      description: "Placeholder. One or two lines on what it is and what was hard about it.",
-      tags: ["C"],
-      link: "https://github.com/naman466"
+      title: "ConvNet Library",
+      description: "A modular ConvNet library modelled on the Transformers API: config management, ResNet-style residual blocks, and a lightweight trainer for custom datasets and metrics.",
+      tags: ["Python", "PyTorch", "NumPy"],
+      when: "Jun – Aug 2025",
+      link: "https://github.com/naman466/convnets"
     },
     {
-      title: "Project three",
-      description: "Placeholder. One or two lines on what it is and what was hard about it.",
-      tags: ["Rust"],
-      link: "https://github.com/naman466"
+      title: "MEMO Score",
+      description: "A standardized benchmark for pruning, quantization and distillation across CNNs and Transformers, measuring FLOPs, latency, parameters and accuracy trade-offs. It became the basis for the MEMO paper (DASA 2025).",
+      tags: ["PyTorch", "Transformers", "Accelerate"],
+      when: "Sep 2025",
+      link: undefined as string | undefined
     }
   ],
 

@@ -105,7 +105,10 @@ export default function Home() {
           <H note="more soon">Experiments</H>
           {c.projects.map((p, i) => (
             <div key={p.title} className="exp">
-              <h3>Exp. #{i + 1}: <a href={p.link}>{p.title}</a></h3>
+              <h3>
+                Exp. #{i + 1}: {p.link ? <a href={p.link}>{p.title}</a> : p.title}{' '}
+                <span className="dim">({p.when})</span>
+              </h3>
               <p>{p.description}</p>
               <p className="result"><b>Tools:</b> {p.tags.join(', ')}</p>
             </div>
